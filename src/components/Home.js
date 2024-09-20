@@ -54,8 +54,8 @@ const Home = () => {
     }
     return (
         <div className="kanban-board">
-            {content}
-            {/* <div className="column">
+            {/* {content} */}
+            <div className="column">
                 <ColumnHeader logo={highPriority} heading={"Todo"} cnt={4} />
                 <Card />
                 <Card />
@@ -80,7 +80,7 @@ const Home = () => {
             <div className="column">
                 <div className="column-header">Canceled</div>
                 <Card />
-            </div> */}
+            </div>
         </div>
     );
 };
